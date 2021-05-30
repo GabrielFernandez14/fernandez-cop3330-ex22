@@ -41,7 +41,7 @@ public class App
                 flag = 1;
             }
             // If the number is greater than the current max,
-            // update max to be that number
+            // update max to be that number and continue looping
             if (numbers[i] > max) {
                 max = numbers[i];
             }
